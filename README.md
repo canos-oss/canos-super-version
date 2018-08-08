@@ -30,3 +30,17 @@ canos version control
     </dependencyManagement>
 ```
 
+## 对于 spring-security 模块，需要需要，请添加如下依赖
+```
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-bom</artifactId>
+                <version>5.0.7.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+```

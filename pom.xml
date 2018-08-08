@@ -20,7 +20,7 @@
 
     <groupId>cn.canos</groupId>
     <artifactId>super-version</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <parent>
         <groupId>cn.canos</groupId>
@@ -29,7 +29,7 @@
     </parent>
 
     <packaging>pom</packaging>
-    
+
     <name>Canos Super Version</name>
     <description>Resolve maven dependency version.</description>
 
@@ -54,23 +54,6 @@
                 <groupId>javax.servlet</groupId>
                 <artifactId>javax.servlet-api</artifactId>
                 <version>3.1.0</version>
-            </dependency>
-
-            <!-- spring-mvc -->
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-webmvc</artifactId>
-                <version>4.3.3.RELEASE</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-jdbc</artifactId>
-                <version>4.3.3.RELEASE</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-context-support</artifactId>
-                <version>4.3.3.RELEASE</version>
             </dependency>
 
             <!-- freemarker -->

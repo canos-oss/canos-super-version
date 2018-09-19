@@ -1,7 +1,7 @@
 # canos-super-version
 canos version control
 
-## ²»°üº¬spring Ïà¹Ø°æ±¾µÄ¿ØÖÆ£¬ÈçÓĞĞèÒª£¬ÇëÌí¼ÓÈçÏÂÒÀÀµ
+## ä¸åŒ…å«spring ç›¸å…³ç‰ˆæœ¬çš„æ§åˆ¶ï¼Œå¦‚æœ‰éœ€è¦ï¼Œè¯·æ·»åŠ å¦‚ä¸‹ä¾èµ–
 ```
     <dependencyManagement>
         <dependencies>
@@ -15,7 +15,7 @@ canos version control
         </dependencies>
     </dependencyManagement>
 ```
-»ò
+æˆ–
 ```
     <dependencyManagement>
         <dependencies>
@@ -30,7 +30,7 @@ canos version control
     </dependencyManagement>
 ```
 
-## ¶ÔÓÚ spring-security Ä£¿é£¬ĞèÒªĞèÒª£¬ÇëÌí¼ÓÈçÏÂÒÀÀµ
+## å¯¹äº spring-security æ¨¡å—ï¼Œè¯·æ·»åŠ å¦‚ä¸‹ä¾èµ–
 ```
     <dependencyManagement>
         <dependencies>
@@ -40,6 +40,21 @@ canos version control
                 <version>5.0.7.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+```
+
+## å¯¹äº spring-cloud æ¨¡å—ï¼Œæ·»åŠ å¦‚ä¸‹ä¾èµ–
+```
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Edgware.SR4</version>
+                <scope>import</scope>
+                <type>pom</type>
             </dependency>
         </dependencies>
     </dependencyManagement>

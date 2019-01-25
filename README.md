@@ -1,5 +1,10 @@
-# canos-super-version
+﻿# canos-super-version
 canos version control
+
+## 部署到中央仓储
+```
+mvn clean deploy -Dgpg.skip=false
+```
 
 ## 不包含spring 相关版本的控制，如有需要，请添加如下依赖
 ```

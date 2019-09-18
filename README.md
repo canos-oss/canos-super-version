@@ -1,6 +1,21 @@
 ﻿# canos-super-version
 canos version control
 
+## 使用
+```
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>cn.canos</groupId>
+                <artifactId>super-version</artifactId>
+                <version>1.0.3</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+```
+
 ## 部署到中央仓储
 ```
 mvn clean deploy -Dgpg.skip=false
